@@ -27,7 +27,16 @@ lista.extend(["jamon","atun","cebollas"])
 
 #Eliminando todos los elementos de la lista
 
-lista.clear()
+"lista.clear()"
+
+#Revierte el orden de la lista
+
+"lista.reverse()"
+
+#Verificando si un elemento esta en la lista y en que posición se encuentra
+
+entorando_objeto = lista.index("jamon")
 
 
-print(lista)
+
+print(entorando_objeto)
